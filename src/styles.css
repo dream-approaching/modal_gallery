@@ -1,0 +1,22 @@
+.Modal {
+  height: 100%;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.Overlay_open {
+  opacity: 1;
+}
+
+.Overlay_close {
+  opacity: 0;
+}
